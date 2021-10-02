@@ -1,72 +1,72 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
-    background-color: rgba(0, 0, 0, 0.986);
-    color: rgb(83, 83, 83);
+  font-family: 'Oswald', sans-serif;
+  background-color: rgba(0, 0, 0, 0.986);
+  color: rgb(83, 83, 83);
 }
 
 /* COR DA LOGOTIPO DH E LINHA DO MEIO*/
 #p1 {
-    color: red;
-    font-weight: bolder;
-    font-size: 35px;
+  color: red;
+  font-weight: bolder;
+  font-size: 35px;
 }
 
 #p2 {
-    font-weight: 600;
-    font-size: 25px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 #linha-vertical {
-    margin: 0px 10px;
-    position: relative;
-    bottom: 5px;
-    /* width: 10px; */
-    height: 25px;
-    border-left: 1px solid red;
+  margin: 0px 10px;
+  position: relative;
+  bottom: 5px;
+  /* width: 10px; */
+  height: 25px;
+  border-left: 1px solid red;
 }
 
 /* --------------------------------- */
 
 #div1 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 #img1 {
-    width: 100%;
-    height: 225px;
-    background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 225px;
+  background-color: rgb(255, 255, 255);
 }
 
 /* logo - diminuindo a área de click */
-#a1 {
-    width: 10px;
-}
+/* #a1 {
+  width: 10px;
+} */
 
 #roll {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* botões do header */
 #botao_hover {
-    background-color: #212529;
-    color: white;
-    border: red solid 1px;
+  background-color: #212529;
+  color: white;
+  border: red solid 1px;
 
 }
 
 #botao_hover:hover {
-    background-color: white;
-    color: black;
-    border: white;
+  background-color: white;
+  color: black;
+  border: white;
 }
 
 /* ----------------------------- */
@@ -76,99 +76,134 @@ body {
 
 
 .text-center {
-    background-image: url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  opacity: 80%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
+
+
+.text-center h1 {
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px gray;
+}
+
+.text-muted {
+  color: whitesmoke !important;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px gray;
+}
+
 
 /* Esse código é só para tirar as margens */
 body,
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*Efeito Parallax na página de about*/
 
 .wrapper {
-    /* O elemento precisa ter uma altura definida para o efeito
+  /* O elemento precisa ter uma altura definida para o efeito
   funcionar.
      100vh significa 100% da altura da view.
   */
-    height: 100vh;
+  height: 100vh;
 
-    /* O tamanho das imagens irá criar uma barra de rolagem 
+  /* O tamanho das imagens irá criar uma barra de rolagem 
   horizontal. Iremos desativar isso */
-    overflow-x: hidden;
+  overflow-x: hidden;
 
-    /* A propriedade perspective indica a "distância" entre o 
+  /* A propriedade perspective indica a "distância" entre o 
   usuário e o plano Z.
   Quanto maior o valor, mais perto o elemento estará do usuário.
   Se for um valor negativo,
   mais distante esse elemento estará.
   */
-    perspective: 2px;
+  perspective: 2px;
 
-    /* O transform-style indica se os elementos filhos devem ser 
+  /* O transform-style indica se os elementos filhos devem ser 
   transformados em um plano 2D ou 3D.
   O valor preserve-3d indica que os elementos devem seguir o 
   espaço 3D indicado.
   */
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .section {
-    /* Indicamos "relative" para depois podermos
+  /* Indicamos "relative" para depois podermos
   posicionar os elementos filhos com "absolute" */
-    position: relative;
+  position: relative;
 
-    /* Indicamos uma altura para a nossa seção. O valor não 
+  /* Indicamos uma altura para a nossa seção. O valor não 
   importa muito.
   Para garantir um bom efeito, coloquei também uma altura 
   mínima de 700px;
   */
-    height: 100vh;
-    min-height: 700px;
+  height: 100vh;
+  min-height: 700px;
 
-    /* Para manter a transformação em espaço 3D, indicamos o mesmo 
+  /* Para manter a transformação em espaço 3D, indicamos o mesmo 
   valor do elemento pai (preserve-3d).
   Para não precisar repetir o valor "preserve-3d", você pode usar 
   o valor "inherit", que fará
   com que ele pegue o valor do elemento pai.
   */
-    transform-style: inherit;
+  transform-style: inherit;
 }
 
 .section::before {
-    /* Aqui nós iremos configurar a imagem que irá aparecer no fundo
+  /* Aqui nós iremos configurar a imagem que irá aparecer no fundo
   da seção.
   Como vimos, o Parallax precisa de elementos diferentes, então 
   não daria certo se colocássemos o fundo diretamente na 
   <section>. Então criaremos um pseudo-elemento para isso.
   */
 
-    /* Isso servirá para que o pseudo-elemento possua as mesmas
+  /* Isso servirá para que o pseudo-elemento possua as mesmas
   dimensões do elemento <section> */
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
-    /* O z-index negativo irá garantir que a imagem não fique por 
+  /* O z-index negativo irá garantir que a imagem não fique por 
   cima de outros elementos */
-    z-index: -1;
+  z-index: -1;
 
-    /* Aqui estamos fazendo com que a imagem de fundo cubra todo o
+  /* Aqui estamos fazendo com que a imagem de fundo cubra todo o
   elemento */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
-    /* Aqui está a brincadeira. Lembra que o nosso "wrapper" está
+  /* Aqui está a brincadeira. Lembra que o nosso "wrapper" está
   mais próximo do usuário?
   Aqui nós faremos com que o nosso pseudo-elemento, que está com
   a imagem de fundo, fique mais longe do usuário. Para isso, 
@@ -181,23 +216,23 @@ html {
   mais lentamente do que os elementos mais próximos conforme 
   a gente role a página.
   */
-    transform: translateZ(-1px) scale(1.5);
+  transform: translateZ(-1px) scale(1.5);
 }
 
 .text {
-    /* Essa classe, como dito antes, é só para o nosso conteúdo.
+  /* Essa classe, como dito antes, é só para o nosso conteúdo.
   Sinta-se livre para criar o que quiser.
   */
-    position: absolute;
-    top: 25%;
-    width: 100%;
-    padding: 20px 0;
-    background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.5);
 
-    color: white;
-    text-shadow: 0 0 5px #000;
-    font-size: 20px;
-    text-align: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+  font-size: 20px;
+  text-align: center;
 }
 
 /* Em nosso pseudo-elemento, configuramos a imagem de fundo,
@@ -206,13 +241,61 @@ mas não indicamos qual será a imagem.
   uma imagem diferente para cada <section>.
 */
 .bg1::before {
-    background-image: url(../img/cursos.jpg);
+  background-image: url(../img/cursos.jpg);
 }
 
 .bg2::before {
-    background-image: url(/img/carreira.jpg);
+  background-image: url(/img/carreira.jpg);
 }
 
 .bg3::before {
-    background-image: url(/img/parcerias.jpg);
+  background-image: url(/img/parcerias.jpg);
+}
+
+
+
+
+
+.course {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.course-text {
+  color: black !important;
+}
+
+.course-js {
+  background-image: url(../img/javascript-curso.jpg);
+
+}
+
+.course-html {
+  background-image: url(../img/html-curso.webp);
+  background-size: 250%;
+
+}
+
+.course-css {
+  background-image: url(../img/css-curso.png);
+
+}
+
+.course-java {
+  background-image: url(../img/java-curso.png);
+  background-size: 196%;
+}
+
+.course-node {
+  background-image: url(../img/node-curso.png);
+  background-size: 100%;
+}
+
+.course-mysql {
+  background-image: url(../img/mysql-curso.jpg);
+  background-size: 100% 175%;
+}
+
+.fw-light {
+  color: antiquewhite
 }
