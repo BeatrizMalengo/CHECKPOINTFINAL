@@ -1,0 +1,204 @@
+/* ---------styled------- */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.login
+{
+    margin: 5%;
+    width: fit-content;
+    border: none;
+}
+input
+{
+    border:none;
+    border: 2px solid rgba(245, 245, 245, 0.418);
+    border-radius: 2px;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    flex-wrap:wrap;
+}
+.container .box
+{
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+/* -----M----- */
+.dbtn
+{
+    display: flex;
+    justify-content: center;
+}
+.dbtn div
+{
+    display: flex;
+    align-items: center;
+    margin: 5% ;
+    margin-bottom: 20%;
+}
+.dbtn div button
+{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.418);
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight:600;
+    color: white;
+}
+.mbtn
+{
+    display: flex;
+
+}
+/* FACEBOOK E GOOGLE */
+.mbtn button:nth-child(1), .mbtn button:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 2px;
+}
+img
+{
+    margin: 3px;
+    height:24px;
+    width: 24px;
+    background: transparent;
+}
+.mbtn a{
+    position: absolute;
+    bottom: -22%;
+    right: 18%;
+    text-decoration: none;
+    color: white;
+}
+#cadastrar
+{
+    position: absolute;
+    bottom: -47%;
+    right: 31%;
+}
+fieldset
+{
+    position: absolute;
+    top: 14%;
+    height: 50%;
+    z-index: 10;
+    width: 80%;
+    border-radius: 5px;
+    border-color: rgba(245, 245, 245, 0.418);
+}
+legend
+{
+    text-align: center;
+}
+
+
+/* -----animation----- */
+.container .box:hover
+{
+    transform: translateY(-20px);
+}
+.container .box::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #f40303, #a00000);
+}
+.container .box::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #440202, #660404);
+    filter: blur(30px);
+}
+.container .box span
+{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.container .box span::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+.container .box .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9;
+    padding: 0px 0px;
+    margin: 0px;
+    color: black;
+}
+
+/* -----botões----- */
+/* -----hover----- */
+.mbtn div button:hover{
+    background-color: rgba(245, 245, 245, 0.418);
+    transition: 0.3s all ease-in-out;
+}
+.mbtn a:hover
+{
+    text-decoration: underline;
+}
+.dbtn div button:hover
+{
+    transform:scale(1.1);
+}
+input:hover{
+    transform:scale(1.1);
+}

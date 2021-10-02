@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Oswald:wght@500;700&display=swap');
+:root {
+    --ideal-viewport-width: 1600;
+    --max-width: 1600px;
+    --bg-color: #202225;
+    --bg-color-secondary: #2f3137;
+    --bg-color-secondary-light: hsl(225, 8%, 60%);
+    --text-color: #fff;
+    --text-color-dark: hsl(0, 0%, 70%);
+    --text-color-black: hsl(0, 0%, 0%);
+    --contraste-color: #ff0000;
+    --font-footer: 'Oswald', sans-serif;
+    --font-normal: 'DM Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: calc(16 * clamp(0.7px, 100vw / var(--ideal-viewport-width), 1.3px));
+    height: 100%;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--font-normal);
+    min-height: 100%;
+}
+
+button, a {
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Início - contact */
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 1 0 auto;
+}
+
+.contato h2 {
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.endereco {
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.redes-sociais a { 
+    margin: 0.6rem;
+}
+
+.redes-sociais img {
+    width: 30px;
+}
+
+/* DIV FORM */
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 30px;
+    justify-content: center;
+    align-items:center;
+    border-radius: 8px;
+}
+
+.form-login form {
+    width: 100%;
+}
+
+/* Título H2 - Conecte-se com sua Conta */
+.form-login h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+
+/* Divs - Label e Input */
+.item-form {
+    width: 100%;
+    margin: 13px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-size: 12px;    
+}
+
+.item-form input {
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    /* outline: none; */
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    font-size: 15px;
+    cursor: pointer;    
+}
+
+textarea {
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    /* outline: none; */
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    font-size: 15px;
+    resize: none;
+    cursor: pointer;    
+}
+
+/* Animação Input */
+
+.item-form input:focus, textarea:focus {
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 8px 0 white;
+}
+
+/* Checkbox Lembrar-me */
+
+.checkbox {
+  /*   display: block;
+    cursor: pointer;
+    padding: 0.3rem; */
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+/* Botão Conectar */
+
+.btn-login {
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+    background-color: var(--contraste-color);
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid var(--contraste-color); 
+    font-family:var(--font-normal);
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Animação Botão Conectar */
+.btn-login:hover {
+    background-color: var(--bg-color);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid var(--contraste-color); 
+    cursor: pointer;
+    transition: ease 0.5s;
+}

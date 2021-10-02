@@ -282,7 +282,7 @@ mas não indicamos qual será a imagem.
 }
 
 .course-java {
-  background-image: url(../img/java-curso.png);
+  background-image: url(../img/java-curso.jpg);
   background-size: 196%;
 }
 
@@ -292,10 +292,18 @@ mas não indicamos qual será a imagem.
 }
 
 .course-mysql {
-  background-image: url(../img/mysql-curso.jpg);
+  background-image: url(../img/mysql-curso.png);
   background-size: 100% 175%;
 }
 
 .fw-light {
   color: antiquewhite
+}
+
+.preview:hover{
+  transform:scale(1.1);
+}
+
+.preview img:hover{
+  opacity:0.5;  
 }
