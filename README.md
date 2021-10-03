@@ -25,9 +25,6 @@ Tabela de conteúdos
 <!--te-->
 
 
-
-
-
 ## 🖥️ Sobre o projeto
 
 O objetivo deste site é servir como uma interface para um suposto serviço de streaming de vídeo aulas com os professores da Digital House.
@@ -35,11 +32,11 @@ Neste projeto o time aplicou os conhecimentos adquiridos na matéria ao longo do
 
 ---
 
-## 📃 Páginas                                        
+## 📃 Funcionalidades                                        
 
 - [x] Home
     - [x] Barra de navegação com logo, links e botões de redirecionamento para as outras páginas (feito em lista)
-    - [x] Banner,contendo descrição breve do site, com imagem de fundo em parallax
+    - [x] Banner,contendo descrição breve do site, com imagem de fundo em parallax e botão com 
     - [x] Em flex-box estão posicionados os cards de visualização dos cursos. Botões que levam para a as páginas de detalhes dos cursos
     - [x] Footer contendo as mesmas seções da barra de navegação e input para inserção de email
 
@@ -94,7 +91,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 
-## 👩🏽‍💻 Autores
+## 👨🏻‍💻👨🏼‍💻👨🏻‍💻👨🏻‍💻👩🏽‍💻 Autores
 
 <a href="https://media-exp1.licdn.com/dms/image/C5603AQGprO4AnVD7jg/profile-displayphoto-shrink_800_800/0/1621455864395?e=1638403200&v=beta&t=lsweSDsnFyygCVziMEj70Mr7MAJ9zxEVwDKcqEjnTI8">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQGprO4AnVD7jg/profile-displayphoto-shrink_800_800/0/1621455864395?e=1638403200&v=beta&t=lsweSDsnFyygCVziMEj70Mr7MAJ9zxEVwDKcqEjnTI8" width="100px;" alt=""/>
@@ -107,4 +104,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-Feito com ❤️ por Beatriz Andrade 👋🏽 [Entre em contato!](www.linkedin.com/in/beatriz-andrade/)
+Feito com ❤️ pelo grupo mais entrosado que você irá encontrar! 👋🏽 [Entre em contato!](www.linkedin.com/in/beatriz-andrade/)
