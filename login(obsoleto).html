@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>login</title>
+
+  <!-- LINK GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet" />
+
+  <!-- CSS STYLE -->
+  <link rel="stylesheet" href="./css/css_login.css" />
+
+  <!-- CSS HOVER -->
+  <link rel="stylesheet" href="./css/hover.css" />
+
+  <!-- CSS ANIMATION -->
+  <link rel="stylesheet" href="./css/animation.css" />
+</head>
+
+<body>
+  <!-- DIV CONTAINER -->
+  <div class="container">
+    <!-- DIV BOX - FORMULÁRIO -->
+    <div class="box">
+      <span></span>
+      <!-- DIV USUARIO -->
+      <fieldset>
+        <legend>LOGIN</legend>
+        <div class="content">
+          <div class="login">
+            <!-- <label for="usuario">Entre com e-mail ou usuário</label> -->
+            <input type="text" name="usuario" id="usuario" placeholder="ID ou endereço de e-mail" />
+          </div>
+
+          <div class="login">
+            <!-- <label for="usuario">Digite sua senha</label> -->
+            <input type="password" name="senha" id="senha" placeholder="Senha" />
+          </div>
+
+          <!-- LOGAR -->
+          <div class="dbtn">
+            <div><button type="submit">Entrar</button></div>
+            <div><button type="reset">Cancelar</button></div>
+          </div>
+
+          <!-- LOGAR COM OUTROS -->
+          <div class="mbtn">
+            <div>
+              <button><img src="./img/google.png" alt="" /> Google</button>
+            </div>
+            <div>
+              <button>
+                <img src="./img/facebook.png" alt="" /> Facebook
+              </button>
+            </div>
+
+            <!-- CADASTRAR E RECUPERAR SENHA -->
+            <a href="#">Esqueceu sua senha?</a>
+            <br />
+            <a id="cadastrar" href="#">Cadastre-se</a>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</body>
+
+</html>

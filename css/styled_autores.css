@@ -2,15 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Oswald', sans-serif;
   background-color: rgba(0, 0, 0, 0.986);
-  color: rgb(83, 83, 83);
+  color: lightgray;
 }
 
 /* COR DA LOGOTIPO DH E LINHA DO MEIO*/
@@ -47,11 +44,6 @@ body {
   height: 225px;
   background-color: rgb(255, 255, 255);
 }
-
-/* logo - diminuindo a área de click */
-/* #a1 {
-  width: 10px;
-} */
 
 #roll {
   text-decoration: none;
@@ -109,9 +101,107 @@ html {
   padding: 0;
 }
 
+/* Autores Style */
+
+:root {
+  --contraste-color: #ff0000;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.game-card {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #2f3137;
+}
+
+.game-card a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  margin-bottom: 0.2rem;
+}
+
+.next-release-card {
+  border: 1px solid #ff0000;
+  background-color: #2f3137;
+}
 
 
+/* Autores */
 
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+.sobre_conteudo {
+  margin-bottom: 2rem;
+}
+
+.sobre_conteudo>h2 {
+  letter-spacing: .1em;
+  padding: 20px;
+}
+
+.sobre_conteudo p {
+  max-width: 100%;
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: left;
+}
+
+.sobre_conteudoFoto {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.5rem;
+  justify-items: center;
+}
+
+.sobre_img {
+  height: 100%;
+  width: 100%;
+  transition: transform .3s ease-in-out;
+  object-fit: cover;
+}
+
+.linkedin {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: height 2s ease-in-out;
+  color: var(--contraste-color);
+}
+
+.linkedin h2 {
+  text-decoration: underline;
+}
+
+.game-card a {
+  height: 200px;
+}
+
+.game-card:hover .linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  backdrop-filter: blur(2px);
+}
 
 
 
@@ -285,7 +375,7 @@ mas não indicamos qual será a imagem.
 }
 
 .course-java {
-  background-image: url(../img/java-curso.jpg);
+  background-image: url(../img/java-curso.png);
   background-size: 196%;
 }
 
@@ -295,18 +385,14 @@ mas não indicamos qual será a imagem.
 }
 
 .course-mysql {
-  background-image: url(../img/mysql-curso.png);
+  background-image: url(../img/mysql-curso.jpg);
   background-size: 100% 175%;
 }
 
 .fw-light {
-  color: rgb(0, 0, 0)
+  color: antiquewhite
 }
 
-.preview:hover {
-  transform: scale(1.1);
-}
-
-.preview img:hover {
-  opacity: 0.5;
+footer{
+  margin-top: 500px;
 }
