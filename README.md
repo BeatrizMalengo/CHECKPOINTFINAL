@@ -32,29 +32,28 @@ Neste projeto o time aplicou os conhecimentos adquiridos na matéria ao longo do
 
 ---
 
-## 📃 Funcionalidades                                        
+## ⚙️ Funcionalidades                                        
 
-- [x] Home
-    - [x] Barra de navegação com logo, links e botões de redirecionamento para as outras páginas (feito em lista)
-    - [x] Banner,contendo descrição breve do site, com imagem de fundo em parallax e botão com 
-    - [x] Em flex-box estão posicionados os cards de visualização dos cursos. Botões que levam para a as páginas de detalhes dos cursos
-    - [x] Footer contendo as mesmas seções da barra de navegação e input para inserção de email
+- [x] Representar uma pataforma de cursos EAD a partir de 10 páginas 
+	- [x] Os alunos teriam acesso aos cursos a partir do seu login
+	- [x]Entrar em contato com a escola a partir do campo "Fale Conosco"
 
-- [x] Autores
-  - [x] 
-
-- [x] Fale Conosco
-  - [x] 
-
-- [x] Login e Sign-up
-  - [x] Fomulário para o aluno poder se identificar e entrar na sua página 
-
-- [x] Páginas de Detalhes dos Cursos
-  - [x] Textos detalhando os cursos 
-
+- [x] Saber quem foram os alunos que produziram o projeto
 
 ---
 
+## 🎨 Layout
+
+###Home
+![Home](img/home.png)
+
+###Visão dos cursos
+![Cursos](img/home-cursos.png)
+
+###Fale Conosco
+![Fale Conosco](img/fale-conosco.png)
+
+---
 
 ## 🚀 Como executar o projeto
 Este projeto possui apenas uma parte:
@@ -77,6 +76,8 @@ https://github.com/BeatrizMalengo/CHECKPOINTFINAL.git
 #Execute o arquivo
 index.html
 
+# A partir da página inicial, é possível acessar todas as outras por meio dos links e botões
+
 ```
 
 ---
@@ -85,7 +86,8 @@ index.html
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
--  **[Node.JS](https://nodejs.org/en/)**
+-  **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+-  **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 
 
 ---
@@ -93,15 +95,63 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨🏻‍💻👨🏼‍💻👨🏻‍💻👨🏻‍💻👩🏽‍💻 Autores
 
+<a href="https://media-exp1.licdn.com/dms/image/C5603AQFZopnLuEDgKw/profile-displayphoto-shrink_800_800/0/1624393305147?e=1639008000&v=beta&t=eLRqFPAaSCcXpIEYprq88gyNwwEX2HDJj80bhystlyg">
+ <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQFZopnLuEDgKw/profile-displayphoto-shrink_800_800/0/1624393305147?e=1639008000&v=beta&t=eLRqFPAaSCcXpIEYprq88gyNwwEX2HDJj80bhystlyg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Alexander Bandeira</b></sub></a> 🦹🏼‍
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Alexander-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alexander-bandeira-5134811b7/)](https://www.linkedin.com/in/alexander-bandeira-5134811b7/) 
+
+
+
+<a href="img/andre.png">
+ <img style="border-radius: 50%;" src="img/andre.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>André José da Silva</b></sub></a>🧙‍♂️
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-André-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andre-jose-da-silva/)](https://www.linkedin.com/in/alexander-bandeira-5134811b7/) 
+
+
+
+
 <a href="https://media-exp1.licdn.com/dms/image/C5603AQGprO4AnVD7jg/profile-displayphoto-shrink_800_800/0/1621455864395?e=1638403200&v=beta&t=lsweSDsnFyygCVziMEj70Mr7MAJ9zxEVwDKcqEjnTI8">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C5603AQGprO4AnVD7jg/profile-displayphoto-shrink_800_800/0/1621455864395?e=1638403200&v=beta&t=lsweSDsnFyygCVziMEj70Mr7MAJ9zxEVwDKcqEjnTI8" width="100px;" alt=""/>
  <br />
- <sub><b>Beatriz Malengo</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat"💁🏽</a>
+	<sub><b>Beatriz Malengo</b></sub></a>🧝🏽‍♀️
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Beatriz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-andrade/)](https://www.linkedin.com/in/beatriz-andrade/) 
-[![Gmail Badge](https://img.shields.io/badge/-biamalengo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:biamalengo@gmail.com)](mailto:biamalengo@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Beatriz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/beatriz-andrade/)](https://www.linkedin.com/in/beatriz-andrade/)
+
+
+
+
+	 
+<a href="img/bruno.jpg">
+<img style="border-radius: 50%;" src="img/bruno.jpg" width="100px;" alt=""/>
+<br />
+	<sub><b>Bruno Barros Miranda</b></sub></a>👨‍🦱
+<br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Bruno-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bruno-b-miranda/)](https://www.linkedin.com/in/bruno-b-miranda/) 
+
+
+
+
+<a href="img/felipe.jpg">
+<img style="border-radius: 50%;" src="img/felipe.jpg" width="100px;" alt=""/>
+<br />
+	<sub><b>Felipe Seo</b></sub></a>🐸
+<br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-seo/)](https://www.linkedin.com/in/felipe-seo/) ![emojisky com-6095976](https://user-images.githubusercontent.com/37845974/135774223-03616792-5e56-43df-b7a0-8c413226ab4d.png)
+
+
+
+
+
 
 ---
 
-Feito com ❤️ pelo grupo mais entrosado que você irá encontrar! 👋🏽 [Entre em contato!](www.linkedin.com/in/beatriz-andrade/)
+Feito com ❤️ pelo grupo mais entrosado que você irá encontrar! 👋🏽 [Entre em contato!](https://discord.com/channels/@me/892201205663670272)
