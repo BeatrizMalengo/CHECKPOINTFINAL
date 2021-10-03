@@ -16,12 +16,16 @@ Tabela de conteúdos
 =================
 <!--ts-->
   * [🖥️ Sobre o projeto](#----sobre-o-projeto)
-  * [⚙️ Funcionalidades/Exercícios](#---funcionalidades-exerc-cios)
+  * [⚙️ Funcionalidades](#---funcionalidades)
+  * [🎨 Layout](#---layout)
+    + [Home](#home)
+    + [Visao dos cursos](#visao-dos-cursos)
+    + [Fale Conosco](#fale-conosco)
   * [🚀 Como executar o projeto](#---como-executar-o-projeto)
-    + [Pré-requisitos](#pr--requisitos)
-      - [🎲 Rodando o Backend (servidor)](#---rodando-o-backend--servidor-)
+    + [Pre-requisitos](#pre-requisitos)
+      - [🧭 Rodando a aplicacao web (Frontend)](#---rodando-a-aplicacao-web--frontend-)
   * [🛠 Tecnologias](#---tecnologias)
-  * [👩🏽‍💻 Autora](#--------autora)
+  * [👨🏻‍💻👨🏼‍💻👨🏻‍💻👨🏻‍💻👩🏽‍💻 Autores](#------------------------------------autores)
 <!--te-->
 
 
@@ -44,13 +48,13 @@ Neste projeto o time aplicou os conhecimentos adquiridos na matéria ao longo do
 
 ## 🎨 Layout
 
-###Home
+### Home
 ![Home](img/home.png)
 
-###Visão dos cursos
+### Visao dos cursos
 ![Cursos](img/home-cursos.png)
 
-###Fale Conosco
+### Fale Conosco
 ![Fale Conosco](img/fale-conosco.png)
 
 ---
@@ -59,13 +63,13 @@ Neste projeto o time aplicou os conhecimentos adquiridos na matéria ao longo do
 Este projeto possui apenas uma parte:
 
 1. Frontend 
-### Pré-requisitos
+### Pre-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
 [Git](https://git-scm.com). 
 
 
-#### 🧭 Rodando a aplicação web (Frontend)
+#### 🧭 Rodando a aplicacao web (Frontend)
 
 ```bash
 # Download deste repositório
@@ -145,7 +149,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 	<sub><b>Felipe Seo</b></sub></a>🐸
 <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-seo/)](https://www.linkedin.com/in/felipe-seo/) ![emojisky com-6095976](https://user-images.githubusercontent.com/37845974/135774223-03616792-5e56-43df-b7a0-8c413226ab4d.png)
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipe-seo/)](https://www.linkedin.com/in/felipe-seo/)
 
 
 
