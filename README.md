@@ -5,8 +5,9 @@
 <h3 align="center">
     💻 Trabalho final de avaliação para a matéria de Front End 1 do Curso CTD da Digital House. Criação de um site de streaming de cursos de conteúdo digital da Digital House.📺
 </h3>
-
-
+<h3 align="center">
+https://beatrizmalengo.github.io/CHECKPOINTFINAL/
+</h3>
 
 <h4 align="center">
 	🚧 Concluído 🚀 🚧
