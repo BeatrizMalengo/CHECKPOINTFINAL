@@ -244,15 +244,15 @@ mas não indicamos qual será a imagem.
   uma imagem diferente para cada <section>.
 */
 .bg1::before {
-  background-image: url(../img/cursos.jpg);
+  background-image: url(./img/cursos.jpg);
 }
 
 .bg2::before {
-  background-image: url(/img/carreira.jpg);
+  background-image: url(./img/carreira.jpg);
 }
 
 .bg3::before {
-  background-image: url(/img/parcerias.jpg);
+  background-image: url(./img/parcerias.jpg);
 }
 
 
@@ -269,33 +269,33 @@ mas não indicamos qual será a imagem.
 }
 
 .course-js {
-  background-image: url(../img/javascript-curso.jpg);
+  background-image: url(./img/javascript-curso.jpg);
 
 }
 
 .course-html {
-  background-image: url(../img/html-curso.webp);
+  background-image: url(./img/html-curso.webp);
   background-size: 250%;
 
 }
 
 .course-css {
-  background-image: url(../img/css-curso.png);
+  background-image: url(./img/css-curso.png);
 
 }
 
 .course-java {
-  background-image: url(../img/java-curso.jpg);
+  background-image: url(./img/java-curso.jpg);
   background-size: 196%;
 }
 
 .course-node {
-  background-image: url(../img/node-curso.png);
+  background-image: url(./img/node-curso.png);
   background-size: 100%;
 }
 
 .course-mysql {
-  background-image: url(../img/mysql-curso.png);
+  background-image: url(./img/mysql-curso.png);
   background-size: 100% 175%;
 }
 
